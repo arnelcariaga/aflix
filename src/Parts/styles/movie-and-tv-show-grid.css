@@ -1,0 +1,21 @@
+.card-img{
+	transition: .5s ease;
+ backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.carousel-item:hover img {
+  opacity: 0.3;
+}
+
+.carousel-item:hover .middle {
+  opacity: 1;
+}
